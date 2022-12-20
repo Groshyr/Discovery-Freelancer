@@ -1,0 +1,2162 @@
+duration = 361.872;
+
+entities =
+{
+
+	{
+		entity_name = "Scene_Untitled",
+		type = SCENE,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		up = Y_AXIS,
+		front = Z_AXIS,
+		ambient = { 1, 1, 1 }
+	},
+
+	{
+		entity_name = "Light_1",
+		type = LIGHT,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { -10000, 0, -1000 },
+			orient = { {  0.991074, -0.077697,  0.108328 },
+					   {  0.027899,  0.915487,  0.401380 },
+					   { -0.130359, -0.394775,  0.909483 } }
+		},
+		lightprops =
+		{
+			on = Y,
+			color = { 160, 190, 200 },
+			diffuse = { 0.627450, 0.745098, 0.784313 },
+			specular = { 0, 0, 0 },
+			ambient = { 0.2, 0.25, 0.3 },
+			direction = { 0, 1, 0 },
+			range = 500000,
+			cutoff = 98.99998,
+			type = L_POINT,
+			theta = 90,
+			atten = { 1, 0, 0 }
+		}
+	},
+	
+	{
+		entity_name = "Camera_1",
+		type = CAMERA,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		cameraprops =
+		{
+			fovh = 30,
+			hvaspect = 1.333333,
+			nearplane = 1,
+			farplane = 1000000
+		}
+	},
+	
+
+	{
+		entity_name = "planet_gasorgcld_8000_1",
+		type = COMPOUND,
+		template_name = "planet_gasorgcld_8000",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { -6125.3, -9164.6, -21947.4 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Solar",
+		}
+	},
+
+	{
+		entity_name = "planet_icemntcld_2000_1",
+		type = COMPOUND,
+		template_name = "planet_icemntcld_2000",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = {  3000, 1500, -8000 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Solar",
+		}
+	},
+
+	{
+		entity_name = "space_beamx_dmg_1",
+		type = COMPOUND,
+		template_name = "space_beamx_dmg",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = {  -2720.3, -2460.9, -11102.1 },
+			orient = { { -0.9730436, -0.2283509,  0.0322792 }, { -0.1992506,  0.7619308, -0.6162472 }, { 0.1161261, -0.6060671, -0.7868910 } }
+		},
+		userprops =
+		{
+			category = "Solar",
+		}
+	},
+
+	{
+		entity_name = "dsy_mod_disc_s_1",
+		type = COMPOUND,
+		template_name = "dsy_mod_disc_s",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = {  -3343.2, -2843.8, -10859.4 },
+			orient = { { -0.9186454, -0.3842953, -0.0916930 }, { -0.1399114,  0.5334840, -0.8341580 }, { 0.3694798, -0.7534665, -0.5438500 } }
+		},
+		userprops =
+		{
+			category = "Solar",
+		}
+	},
+
+	{
+		entity_name = "space_police_dmg_1",
+		type = COMPOUND,
+		template_name = "space_police_dmg",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = {  -3870.5, -3139.3, -11077.7 },
+			orient = { { 0.0985444, -0.9939610, -0.0482764 }, { -0.9519675, -0.1082919,  0.2864099 }, { -0.2899082,  0.0177335, -0.9568902 } }
+		},
+		userprops =
+		{
+			category = "Solar",
+		}
+	},
+
+	{
+		entity_name = "space_police_dmg_2",
+		type = COMPOUND,
+		template_name = "space_police_dmg",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = {  -2296.1, -2497, -11498.3 },
+			orient = { { 0.9783933,  0.0993197, -0.1813345 }, { 0.1672367, -0.8958672,  0.4116477 }, { -0.1215669, -0.4330791, -0.8931203 } }
+		},
+		userprops =
+		{
+			category = "Solar",
+		}
+	},
+	
+	{
+		entity_name = "space_beaml_dmg_1",
+		type = COMPOUND,
+		template_name = "space_beaml_dmg",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { -2744.1, -2546.3, -10812.5 },
+			orient = { { 0.7071068,  0.0000000,  0.7071068 }, { 0, 1, 0 }, { -0.7071068,  0.0000000,  0.7071068  } }
+		},
+		userprops =
+		{
+			category = "Solar",
+		}
+	},
+
+	{
+		entity_name = "space_beamx_dmg_2",
+		type = COMPOUND,
+		template_name = "space_beamx_dmg",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { -2988.7, -2553.5, -11645.3 },
+			orient = { { 0.7071068,  0.0000000,  0.7071068 }, { 0, 1, 0 }, { -0.7071068,  0.0000000,  0.7071068  } }
+		},
+		userprops =
+		{
+			category = "Solar",
+		}
+	},
+	
+	{
+		entity_name = "space_dome_dmg_1",
+		type = COMPOUND,
+		template_name = "space_dome_dmg",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { -2284.3, -2465, -12206.5 },
+			orient = { { 0.7071068,  0.0000000,  0.7071068 }, { 0, 1, 0 }, { -0.7071068,  0.0000000,  0.7071068  } }
+		},
+		userprops =
+		{
+			category = "Solar",
+		}
+	},
+	
+	{
+		entity_name = "debris_xlarge01_1",
+		type = COMPOUND,
+		template_name = "debris_xlarge01",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { -4343.8, -3282.5, -10979.6 },
+			orient = { { 0.7071068,  0.0000000,  0.7071068 }, { 0, 1, 0 }, { -0.7071068,  0.0000000,  0.7071068  } }
+		},
+		userprops =
+		{
+			category = "Solar",
+		}
+	},
+	
+	{
+		entity_name = "space_industrial01_1",
+		type = COMPOUND,
+		template_name = "space_industrial01",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { -2173.9, -1926.7, -13007.1 },
+			orient = { { 0.7071068,  0.0000000,  0.7071068 }, { 0, 1, 0 }, { -0.7071068,  0.0000000,  0.7071068  } }
+		},
+		userprops =
+		{
+			category = "Solar",
+		}
+	},
+	
+	{
+		entity_name = "space_tanklx4_dmg_1",
+		type = COMPOUND,
+		template_name = "space_tanklx4_dmg",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { -2747.4, -2564.2, -11186.8 },
+			orient = { { 0.7071068,  0.0000000,  0.7071068 }, { 0, 1, 0 }, { -0.7071068,  0.0000000,  0.7071068  } }
+		},
+		userprops =
+		{
+			category = "Solar",
+		}
+	},
+	
+	{
+		entity_name = "dsy_barge_1",
+		type = COMPOUND,
+		template_name = "dsy_barge",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = {  1100, 550, -5000 },
+			orient = { { 0, 0, -1 }, { 0, 1, 0 }, { 1, 0, 0 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+		}
+	},
+	
+	{
+		entity_name = "dsy_cargobarge_1",
+		type = COMPOUND,
+		template_name = "dsy_cargobarge_1",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = {  0, 10000, 0 },
+			orient = { { 0.0000000,  0.0000000, -1.0000000 }, { 0, 1, 0 }, { 1.0000000,  0.0000000, -0.0000000  } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+		}
+	},
+	
+	{
+		entity_name = "dsy_cargobarge_1_engine_1",
+		type = PSYS,
+		template_name = "gf_br_largeengine03",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { -2242, -1200, 2951 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	
+	{
+		entity_name = "dsy_cargobarge_1_engine_2",
+		type = PSYS,
+		template_name = "gf_br_largeengine03",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { -2242, -1200, 2951 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	
+	{
+		entity_name = "dsy_rh_miner",
+		type = COMPOUND,
+		template_name = "dsy_rh_miner",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = {  0, 10000, 0 },
+			orient = { { 0.0000000,  0.0000000, -1.0000000 }, { 0, 1, 0 }, { 1.0000000,  0.0000000, -0.0000000  } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+		}
+	},
+	
+	{
+		entity_name = "dsy_rh_miner_engine_1",
+		type = PSYS,
+		template_name = "gf_rh_largeengine01",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 10000, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	
+	{
+		entity_name = "dsy_rh_miner_engine_2",
+		type = PSYS,
+		template_name = "gf_rh_largeengine01",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 10000, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	
+	{
+		entity_name = "dsy_rh_miner_engine_3",
+		type = PSYS,
+		template_name = "gf_rh_largeengine01",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 10000, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	
+	{
+		entity_name = "dsy_rh_miner_engine_4",
+		type = PSYS,
+		template_name = "gf_rh_largeengine01",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 10000, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	
+	{
+		entity_name = "dsy_large_transport_1",
+		type = COMPOUND,
+		template_name = "dsy_large_transport",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = {  0, 353, -2500 },
+			orient = { { 0.0000000,  0.0000000, -1.0000000 }, { 0, 1, 0 }, { 1.0000000,  0.0000000, -0.0000000  } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+		}
+	},
+	
+	{
+		entity_name = "dsy_large_transport_1_engine_1",
+		type = PSYS,
+		template_name = "gf_br_transport_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { -2242, -1200, 2951 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+
+	{
+		entity_name = "dsy_large_transport_1_engine_2",
+		type = PSYS,
+		template_name = "gf_br_transport_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { -2242, -1200, 2951 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	
+	{
+		entity_name = "dsy_large_transport_1_engine_3",
+		type = PSYS,
+		template_name = "gf_br_transport_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { -2242, -1200, 2951 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	
+	{
+		entity_name = "dsy_large_transport_1_engine_4",
+		type = PSYS,
+		template_name = "gf_br_transport_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { -2242, -1200, 2951 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	
+	{
+		entity_name = "dsy_large_transport_1_engine_5",
+		type = PSYS,
+		template_name = "gf_br_transport_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { -2242, -1200, 2951 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	
+	{
+		entity_name = "dsy_large_transport_2",
+		type = COMPOUND,
+		template_name = "dsy_large_transport",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = {  0, 353, -2500 },
+			orient = { { 0.0000000,  0.0000000, -1.0000000 }, { 0, 1, 0 }, { 1.0000000,  0.0000000, -0.0000000  } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+		}
+	},
+	
+	{
+		entity_name = "dsy_large_transport_2_engine_1",
+		type = PSYS,
+		template_name = "gf_br_transport_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { -2242, -1200, 2951 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+
+	{
+		entity_name = "dsy_large_transport_2_engine_2",
+		type = PSYS,
+		template_name = "gf_br_transport_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { -2242, -1200, 2951 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	
+	{
+		entity_name = "dsy_large_transport_2_engine_3",
+		type = PSYS,
+		template_name = "gf_br_transport_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { -2242, -1200, 2951 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	
+	{
+		entity_name = "dsy_large_transport_2_engine_4",
+		type = PSYS,
+		template_name = "gf_br_transport_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { -2242, -1200, 2951 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	
+	{
+		entity_name = "dsy_large_transport_2_engine_5",
+		type = PSYS,
+		template_name = "gf_br_transport_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { -2242, -1200, 2951 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+
+	{
+		entity_name = "newport_shf_1",
+		type = COMPOUND,
+		template_name = "newport_shf",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = {  0, 10000, 0 },
+			orient = { { 0.0000000,  0.0000000, -1.0000000 }, { 0, 1, 0 }, { 1.0000000,  0.0000000, -0.0000000  } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+		}
+	},
+	
+	{
+		entity_name = "newport_shf_1_engine_1",
+		type = PSYS,
+		template_name = "gf_co_smallengine02",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { -2242, -1200, 2951 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+
+	{
+		entity_name = "newport_shf_1_engine_2",
+		type = PSYS,
+		template_name = "gf_co_smallengine02",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { -2242, -1200, 2951 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	
+	{
+		entity_name = "dsy_core_bmb_1",
+		type = COMPOUND,
+		template_name = "dsy_bw_shf",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = {  0, 10000, 0 },
+			orient = { { 0.0000000,  0.0000000, -1.0000000 }, { 0, 1, 0 }, { 1.0000000,  0.0000000, -0.0000000  } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+		}
+	},
+	
+	{
+		entity_name = "core_bmb_1_engine_1",
+		type = PSYS,
+		template_name = "dsy_tau_engine_blue",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { -2242, -1200, 2951 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+
+	{
+		entity_name = "core_bmb_1_engine_2",
+		type = PSYS,
+		template_name = "dsy_tau_engine_blue",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { -2242, -1200, 2951 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	
+	{
+		entity_name = "dsy_falchion",
+		type = COMPOUND,
+		template_name = "dsy_falchion",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = {  0, 10000, 0 },
+			orient = { { 0.0000000,  0.0000000, -1.0000000 }, { 0, 1, 0 }, { 1.0000000,  0.0000000, -0.0000000  } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+		}
+	},
+	
+	{
+		entity_name = "dsy_falchion_engine_1",
+		type = PSYS,
+		template_name = "dsy_tau_engine_blue",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { -2242, -1200, 2951 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+
+	{
+		entity_name = "dsy_falchion_engine_2",
+		type = PSYS,
+		template_name = "dsy_tau_engine_blue",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { -2242, -1200, 2951 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	
+	{
+		entity_name = "ceres_at_1",
+		type = COMPOUND,
+		template_name = "ceres_at",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = {  0, 10000, 0 },
+			orient = { { 0.0000000,  0.0000000, -1.0000000 }, { 0, 1, 0 }, { 1.0000000,  0.0000000, -0.0000000  } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+		}
+	},
+	
+	{
+		entity_name = "ceres_at_1_engine_1",
+		type = PSYS,
+		template_name = "dsy_core_fire_large02",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { -2242, -1200, 2951 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+
+	{
+		entity_name = "core_freighter_engine_2",
+		type = PSYS,
+		template_name = "dsy_core_fire_large02",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { -2242, -1200, 2951 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+
+	{
+		entity_name = "starsphere_li09",
+		type = COMPOUND,
+		template_name = "starsphere_li09",
+		lt_grp = 0, srt_grp = -100, usr_flg = 1,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Prop",
+		}
+	},
+
+	{
+		entity_name = "starsphere_li01_stars_1",
+		type = COMPOUND,
+		template_name = "starsphere_li01_stars",
+		lt_grp = 0, srt_grp = -100, usr_flg = 1,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1  } }
+		},
+		userprops =
+		{
+			category = "Prop",
+		}
+	},
+
+	{
+		entity_name = "Monitor_1",
+		type = MONITOR,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0
+	},
+
+	{
+		entity_name = "path_dsy_large_transport",
+		type = MOTION_PATH,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		pathprops =
+		{
+			path_type = "CV_CROrientationSplinePath",
+			path_data = "OPEN, { -530.9, -200, -913.5 }, { 1, 0, 0, 0 }, { 10000, -200, -5615 }, { 1, 0, 0, 0 }, "
+		}
+	},
+	
+	{
+		entity_name = "path_core_freighter",
+		type = MOTION_PATH,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		pathprops =
+		{
+			path_type = "CV_CROrientationSplinePath",
+			path_data = "OPEN, { 1000, 500, -6500 }, { 1, 0, 0, 0 }, { -1000, -700, 3000 }, { 1, 0, 0, 0 }, "
+		}
+	},
+	
+	{
+		entity_name = "path_dsy_cargobarge_1",
+		type = MOTION_PATH,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		pathprops =
+		{
+			path_type = "CV_CROrientationSplinePath",
+			path_data = "OPEN, { 3550.1, 331.6, -2173.7 }, { 1, 0, 0, 0 }, { -10000, 331.6, -2173.7 }, { 1, 0, 0, 0 }, "
+		}
+	},
+	
+	{
+		entity_name = "path_fighters",
+		type = MOTION_PATH,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		pathprops =
+		{
+			path_type = "CV_CROrientationSplinePath",
+			path_data = "OPEN, { 200, -20, -50 }, { 1, 0, 0, 0 }, { -10000, -1000, -16000 }, { 1, 0, 0, 0 },"
+		}
+	},
+};
+
+events =
+{
+	{
+		0.000, START_SPATIAL_PROP_ANIM, { "planet_gasorgcld_8000_1" },
+		{
+			duration = 2400,
+			target_type = ROOT,
+			spatialprops =
+			{
+				axisrot = { 360, NEG_Y_AXIS }
+			}
+		}
+	},
+
+	{
+		0.000, START_SPATIAL_PROP_ANIM, { "planet_icemntcld_2000_1" },
+		{
+			duration = 1020.100,
+			target_type = ROOT,
+			spatialprops =
+			{
+				axisrot = { 1020, NEG_Y_AXIS }
+			}
+		}
+	},
+
+	{
+		0.000, START_SPATIAL_PROP_ANIM, { "space_beamx_dmg_1" },
+		{
+			duration = 1020,
+			target_type = ROOT,
+			spatialprops =
+			{
+				axisrot = { 4040, Y_AXIS }
+			
+			}
+		}
+	},
+	
+	{
+		0.000, START_SPATIAL_PROP_ANIM, { "dsy_mod_disc_s_1" },
+		{
+			duration = 1020,
+			target_type = ROOT,
+			spatialprops =
+			{
+				axisrot = { 4040, Y_AXIS }
+			
+			}
+		}
+	},
+	
+	{
+		0.000, START_SPATIAL_PROP_ANIM, { "space_police_dmg_1" },
+		{
+			duration = 1020,
+			target_type = ROOT,
+			spatialprops =
+			{
+				axisrot = { 4040, Y_AXIS }
+			
+			}
+		}
+	},
+	
+	{
+		0.000, START_SPATIAL_PROP_ANIM, { "space_police_dmg_2" },
+		{
+			duration = 1020,
+			target_type = ROOT,
+			spatialprops =
+			{
+				axisrot = { 4040, Y_AXIS }
+			
+			}
+		}
+	},
+	
+	{
+		0.000, START_SPATIAL_PROP_ANIM, { "space_beaml_dmg_1" },
+		{
+			duration = 1020,
+			target_type = ROOT,
+			spatialprops =
+			{
+				axisrot = { 4040, Y_AXIS }
+			
+			}
+		}
+	},
+	
+	{
+		0.000, START_SPATIAL_PROP_ANIM, { "space_beamx_dmg_2" },
+		{
+			duration = 1020,
+			target_type = ROOT,
+			spatialprops =
+			{
+				axisrot = { 4040, Y_AXIS }
+			
+			}
+		}
+	},
+	
+	{
+		0.000, START_SPATIAL_PROP_ANIM, { "space_dome_dmg_1" },
+		{
+			duration = 1020,
+			target_type = ROOT,
+			spatialprops =
+			{
+				axisrot = { 4040, Y_AXIS }
+			
+			}
+		}
+	},
+	
+	{
+		0.000, START_SPATIAL_PROP_ANIM, { "debris_xlarge01_1" },
+		{
+			duration = 1020,
+			target_type = ROOT,
+			spatialprops =
+			{
+				axisrot = { 4040, Y_AXIS }
+			
+			}
+		}
+	},
+	
+	{
+		0.000, START_SPATIAL_PROP_ANIM, { "space_industrial01_1" },
+		{
+			duration = 1020,
+			target_type = ROOT,
+			spatialprops =
+			{
+				axisrot = { 2020, Y_AXIS }
+			
+			}
+		}
+	},
+	
+	{
+		0.000, START_SPATIAL_PROP_ANIM, { "space_industrial01_1" },
+		{
+			duration = 1020,
+			target_type = ROOT,
+			spatialprops =
+			{
+				axisrot = { 2020, Z_AXIS }
+			
+			}
+		}
+	},
+	
+	{
+		0.000, START_SPATIAL_PROP_ANIM, { "space_industrial01_1" },
+		{
+			duration = 1020,
+			target_type = ROOT,
+			spatialprops =
+			{
+				axisrot = { 2020, X_AXIS }
+			
+			}
+		}
+	},
+	
+	{
+		0.000, START_SPATIAL_PROP_ANIM, { "space_tanklx4_dmg_1" },
+		{
+			duration = 1020,
+			target_type = ROOT,
+			spatialprops =
+			{
+				axisrot = { 4040, Y_AXIS }
+			
+			}
+		}
+	},
+	
+	{
+		0.000, SET_CAMERA, { "Monitor_1", "Camera_1" }
+	},
+
+	{
+		16.000, START_PATH_ANIMATION, { "dsy_cargobarge_1", "path_dsy_cargobarge_1" },
+		{
+			duration = 180.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT
+		}
+	},
+
+	{
+		0.000, START_PSYS, { "dsy_cargobarge_1_engine_1" },
+		{
+			duration = 180.000
+		}
+	},
+	
+	{
+		0.00, START_PSYS_PROP_ANIM, { "dsy_cargobarge_1_engine_1" },
+		{
+			duration = 1.031,
+			psysprops =
+			{
+				sparam = 0.9
+			},
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.950000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = 0
+		}
+	},
+	
+	{
+		0.000, START_PSYS, { "dsy_cargobarge_1_engine_2" },
+		{
+			duration = 180.000
+		}
+	},
+	
+	{
+		0.00, START_PSYS_PROP_ANIM, { "dsy_cargobarge_1_engine_2" },
+		{
+			duration = 1.031,
+			psysprops =
+			{
+				sparam = 0.9
+			},
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.950000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = 0
+		}
+	},
+	
+	{
+		0.000, ATTACH_ENTITY, { "dsy_cargobarge_1_engine_1", "dsy_cargobarge_1" },
+		{
+			duration = 180.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine04",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	
+	{
+		0.000, ATTACH_ENTITY, { "dsy_cargobarge_1_engine_2", "dsy_cargobarge_1" },
+		{
+			duration = 180.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine05",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	
+	{
+		12.000, START_PATH_ANIMATION, { "dsy_rh_miner", "path_dsy_cargobarge_1" },
+		{
+			duration = 100.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 200, 100, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT
+		}
+	},
+
+	{
+		0.000, START_PSYS, { "dsy_rh_miner_engine_1" },
+		{
+			duration = 180.000
+		}
+	},
+	
+	{
+		0.000, START_PSYS, { "dsy_rh_miner_engine_2" },
+		{
+			duration = 180.000
+		}
+	},
+	
+	{
+		0.000, START_PSYS, { "dsy_rh_miner_engine_3" },
+		{
+			duration = 180.000
+		}
+	},
+	
+	{
+		0.000, START_PSYS, { "dsy_rh_miner_engine_4" },
+		{
+			duration = 180.000
+		}
+	},
+	
+	{
+		0.00, START_PSYS_PROP_ANIM, { "dsy_rh_miner_engine_1" },
+		{
+			duration = 1.031,
+			psysprops =
+			{
+				sparam = 0.9
+			},
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.950000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = 0
+		}
+	},
+	
+	{
+		0.00, START_PSYS_PROP_ANIM, { "dsy_rh_miner_engine_2" },
+		{
+			duration = 1.031,
+			psysprops =
+			{
+				sparam = 0.9
+			},
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.950000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = 0
+		}
+	},
+	
+	{
+		0.00, START_PSYS_PROP_ANIM, { "dsy_rh_miner_engine_3" },
+		{
+			duration = 1.031,
+			psysprops =
+			{
+				sparam = 0.9
+			},
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.950000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = 0
+		}
+	},
+	
+	{
+		0.00, START_PSYS_PROP_ANIM, { "dsy_rh_miner_engine_4" },
+		{
+			duration = 1.031,
+			psysprops =
+			{
+				sparam = 0.9
+			},
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.950000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = 0
+		}
+	},
+	
+	{
+		0.000, ATTACH_ENTITY, { "dsy_rh_miner_engine_1", "dsy_rh_miner" },
+		{
+			duration = 180.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	
+	{
+		0.000, ATTACH_ENTITY, { "dsy_rh_miner_engine_2", "dsy_rh_miner" },
+		{
+			duration = 180.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine03",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	
+	{
+		0.000, ATTACH_ENTITY, { "dsy_rh_miner_engine_3", "dsy_rh_miner" },
+		{
+			duration = 180.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine04",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	
+	{
+		0.000, ATTACH_ENTITY, { "dsy_rh_miner_engine_4", "dsy_rh_miner" },
+		{
+			duration = 180.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	
+	{
+		0.000, START_PATH_ANIMATION, { "dsy_large_transport_1", "path_dsy_large_transport" },
+		{
+			duration = 360.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT
+		}
+	},
+
+	{
+		0.000, START_PSYS, { "dsy_large_transport_1_engine_1" },
+		{
+			duration = 100.000
+		}
+	},
+
+	{
+		0.000, START_PSYS, { "dsy_large_transport_1_engine_2" },
+		{
+			duration = 100.000
+		}
+	},
+	
+	{
+		0.000, START_PSYS, { "dsy_large_transport_1_engine_3" },
+		{
+			duration = 100.000
+		}
+	},
+	
+	{
+		0.000, START_PSYS, { "dsy_large_transport_1_engine_4" },
+		{
+			duration = 100.000
+		}
+	},
+	
+	{
+		0.000, START_PSYS, { "dsy_large_transport_1_engine_5" },
+		{
+			duration = 100.000
+		}
+	},
+
+	{
+		0.00, START_PSYS_PROP_ANIM, { "dsy_large_transport_1_engine_1" },
+		{
+			duration = 1.031,
+			psysprops =
+			{
+				sparam = 0.9
+			},
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.950000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = 0
+		}
+	},
+
+	{
+		0.00, START_PSYS_PROP_ANIM, { "dsy_large_transport_1_engine_2" },
+		{
+			duration = 1.031,
+			psysprops =
+			{
+				sparam = 0.9
+			},
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.950000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = 0
+		}
+	},
+
+	{
+		0.00, START_PSYS_PROP_ANIM, { "dsy_large_transport_1_engine_3" },
+		{
+			duration = 1.031,
+			psysprops =
+			{
+				sparam = 0.9
+			},
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.950000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = 0
+		}
+	},
+	
+	{
+		0.00, START_PSYS_PROP_ANIM, { "dsy_large_transport_1_engine_4" },
+		{
+			duration = 1.031,
+			psysprops =
+			{
+				sparam = 0.9
+			},
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.950000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = 0
+		}
+	},
+	
+	{
+		0.00, START_PSYS_PROP_ANIM, { "dsy_large_transport_1_engine_5" },
+		{
+			duration = 1.031,
+			psysprops =
+			{
+				sparam = 0.9
+			},
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.950000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = 0
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "dsy_large_transport_1_engine_1", "dsy_large_transport_1" },
+		{
+			duration = 100.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "dsy_large_transport_1_engine_2", "dsy_large_transport_1" },
+		{
+			duration = 100.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	
+	{
+		0.000, ATTACH_ENTITY, { "dsy_large_transport_1_engine_3", "dsy_large_transport_1" },
+		{
+			duration = 100.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine03",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	
+	{
+		0.000, ATTACH_ENTITY, { "dsy_large_transport_1_engine_4", "dsy_large_transport_1" },
+		{
+			duration = 100.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine04",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	
+	{
+		0.000, ATTACH_ENTITY, { "dsy_large_transport_1_engine_5", "dsy_large_transport_1" },
+		{
+			duration = 100.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine05",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.00, START_PSYS_PROP_ANIM, { "dsy_large_transport_2_engine_1" },
+		{
+			duration = 1.031,
+			psysprops =
+			{
+				sparam = 0.9
+			},
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.950000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = 0
+		}
+	},
+
+	{
+		0.00, START_PSYS_PROP_ANIM, { "dsy_large_transport_2_engine_2" },
+		{
+			duration = 1.031,
+			psysprops =
+			{
+				sparam = 0.9
+			},
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.950000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = 0
+		}
+	},
+
+	{
+		0.00, START_PSYS_PROP_ANIM, { "dsy_large_transport_2_engine_3" },
+		{
+			duration = 1.031,
+			psysprops =
+			{
+				sparam = 0.9
+			},
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.950000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = 0
+		}
+	},
+	
+	{
+		0.00, START_PSYS_PROP_ANIM, { "dsy_large_transport_2_engine_4" },
+		{
+			duration = 1.031,
+			psysprops =
+			{
+				sparam = 0.9
+			},
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.950000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = 0
+		}
+	},
+	
+	{
+		0.00, START_PSYS_PROP_ANIM, { "dsy_large_transport_2_engine_5" },
+		{
+			duration = 1.031,
+			psysprops =
+			{
+				sparam = 0.9
+			},
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.950000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = 0
+		}
+	},
+
+	{
+		0.000, START_PATH_ANIMATION, { "dsy_large_transport_2", "path_dsy_large_transport" },
+		{
+			duration = 360.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 200, 100, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT
+		}
+	},
+
+	{
+		0.000, START_PSYS, { "dsy_large_transport_2_engine_1" },
+		{
+			duration = 100.000
+		}
+	},
+
+	{
+		0.000, START_PSYS, { "dsy_large_transport_2_engine_2" },
+		{
+			duration = 100.000
+		}
+	},
+	
+	{
+		0.000, START_PSYS, { "dsy_large_transport_2_engine_3" },
+		{
+			duration = 100.000
+		}
+	},
+	
+	{
+		0.000, START_PSYS, { "dsy_large_transport_2_engine_4" },
+		{
+			duration = 100.000
+		}
+	},
+	
+	{
+		0.000, START_PSYS, { "dsy_large_transport_2_engine_5" },
+		{
+			duration = 100.000
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "dsy_large_transport_2_engine_1", "dsy_large_transport_2" },
+		{
+			duration = 100.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "dsy_large_transport_2_engine_2", "dsy_large_transport_2" },
+		{
+			duration = 100.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	
+	{
+		0.000, ATTACH_ENTITY, { "dsy_large_transport_2_engine_3", "dsy_large_transport_2" },
+		{
+			duration = 100.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine03",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	
+	{
+		0.000, ATTACH_ENTITY, { "dsy_large_transport_2_engine_4", "dsy_large_transport_2" },
+		{
+			duration = 100.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine04",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	
+	{
+		0.000, ATTACH_ENTITY, { "dsy_large_transport_2_engine_5", "dsy_large_transport_2" },
+		{
+			duration = 100.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine05",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	
+	{
+		4.000, START_PATH_ANIMATION, { "ceres_at_1", "path_core_freighter" },
+		{
+			duration = 30.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 100, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT
+		}
+	},
+
+	{
+		4.000, START_PSYS, { "ceres_at_1_engine_1" },
+		{
+			duration = 30.000
+		}
+	},
+
+	{
+		4.000, START_PSYS, { "core_freighter_engine_2" },
+		{
+			duration = 30.000
+		}
+	},
+
+	{
+		4.000, ATTACH_ENTITY, { "ceres_at_1_engine_1", "ceres_at_1" },
+		{
+			duration = 30.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, START_PATH_ANIMATION, { "newport_shf_1", "path_fighters" },
+		{
+			duration = 210.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT
+		}
+	},
+
+	{
+		0.000, START_PSYS, { "newport_shf_1_engine_1" },
+		{
+			duration = 310.000
+		}
+	},
+
+	{
+		0.00, START_PSYS_PROP_ANIM, { "newport_shf_1_engine_1" },
+		{
+			duration = 1.031,
+			psysprops =
+			{
+				sparam = 1
+			},
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.950000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = 0
+		}
+	},
+
+	{
+		0.000, START_PSYS, { "newport_shf_1_engine_2" },
+		{
+			duration = 310.000
+		}
+	},
+
+	{
+		0.00, START_PSYS_PROP_ANIM, { "newport_shf_1_engine_2" },
+		{
+			duration = 1.031,
+			psysprops =
+			{
+				sparam = 1
+			},
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.950000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = 0
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "newport_shf_1_engine_1", "newport_shf_1" },
+		{
+			duration = 310.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "newport_shf_1_engine_2", "newport_shf_1" },
+		{
+			duration = 310.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		50.000, START_PATH_ANIMATION, { "dsy_core_bmb_1", "path_fighters" },
+		{
+			duration = 310.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT
+		}
+	},
+
+	{
+		0.000, START_PSYS, { "core_bmb_1_engine_1" },
+		{
+			duration = 310.000
+		}
+	},
+
+	{
+		0.000, START_PSYS, { "core_bmb_1_engine_2" },
+		{
+			duration = 310.000
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "core_bmb_1_engine_1", "dsy_core_bmb_1" },
+		{
+			duration = 310.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "core_bmb_1_engine_2", "dsy_core_bmb_1" },
+		{
+			duration = 310.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	
+	{
+		0.00, START_PSYS_PROP_ANIM, { "core_bmb_1_engine_1" },
+		{
+			duration = 1.031,
+			psysprops =
+			{
+				sparam = 0.9
+			},
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.950000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = 0
+		}
+	},
+	
+	{
+		0.00, START_PSYS_PROP_ANIM, { "core_bmb_1_engine_2" },
+		{
+			duration = 1.031,
+			psysprops =
+			{
+				sparam = 0.9
+			},
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.950000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = 0
+		}
+	},
+	
+	{
+		50.000, START_PATH_ANIMATION, { "dsy_falchion", "path_fighters" },
+		{
+			duration = 310.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { -20, -10, 5 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT
+		}
+	},
+
+	{
+		0.000, START_PSYS, { "dsy_falchion_engine_1" },
+		{
+			duration = 310.000
+		}
+	},
+
+	{
+		0.000, START_PSYS, { "dsy_falchion_engine_2" },
+		{
+			duration = 310.000
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "dsy_falchion_engine_1", "dsy_falchion" },
+		{
+			duration = 310.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "dsy_falchion_engine_2", "dsy_falchion" },
+		{
+			duration = 310.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	
+	{
+		0.00, START_PSYS_PROP_ANIM, { "dsy_falchion_engine_1" },
+		{
+			duration = 1.031,
+			psysprops =
+			{
+				sparam = 0.9
+			},
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.950000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = 0
+		}
+	},
+	
+	{
+		0.00, START_PSYS_PROP_ANIM, { "dsy_falchion_engine_2" },
+		{
+			duration = 1.031,
+			psysprops =
+			{
+				sparam = 0.9
+			},
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.950000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = 0
+		}
+	},
+};

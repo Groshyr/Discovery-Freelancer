@@ -1,0 +1,18 @@
+All restarts provide the following:
+  Moderately equipped Civilian Shuttle with 25,000 credits
+
+In case of faction restarts:
+  +1 rep to regular faction & -0.4 to its guard (if available)
+  Parked on the Guard base selling snubcraft with faction ID mounted*
+  Corporate restarts are parked on the capital planet of the region
+
+In case of non-faction restarts:
+  +0.3 rep to every faction in the region (Civilian & Freelancer restarts)
+  Parked at the capital planet of the region with freelancer ID mounted*
+
+All restart player characters provide the restart faction's native outfit and loadout.
+
+
+* With a few exceptions
+
+For more info, visit: http://discoverygc.com/forums/showthread.php?tid=104707
